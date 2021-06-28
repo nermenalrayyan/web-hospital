@@ -18,3 +18,89 @@ header h2
     left: 10%;
 }
 /* End Haeder */
+
+
+
+
+
+/* Start Carts */
+.carts
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.carts .cart
+{
+    margin: 40px;
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+.carts .item
+{
+    padding: 5%;
+    position: relative;
+}
+
+.carts .img-cart img
+{
+    width: 100%;
+    height: 20em;
+}
+
+.carts .item h3
+{
+    font-size: 1.50rem;
+}
+
+.carts .item .share
+{
+    text-align: right;
+}
+
+.carts .item .share img
+{
+    width: 5%;
+    position: absolute;
+    right: 14px;
+    top: 25px;
+}
+
+.carts .item .stars ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+
+.carts .item .stars ul li
+{
+    /* padding: 0 0.5%; */
+    padding: 0 1.5%;
+}
+
+.carts .item .stars ul img
+{
+    width: 1em;
+}
+
+.carts .item p
+{
+    font-weight: bold;
+}
+
+.carts .item .button
+{
+    text-align: center;
+}
+
+.carts .item button
+{
+    border-radius: 25px;
+    border: 0;
+    background-color: #ff7e07;
+    padding: 2% 4%;
+    font-weight: bold;
+}
+/* End Carts */
